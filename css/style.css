@@ -46,12 +46,10 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     color: 000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -68,17 +66,92 @@ body {
 }
 
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 100%;
+  padding: 80px;
 }
 
 footer {
-
+  background-color: #121212;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+body {
+  background-color: #f0efef;
+  color: white;
+  margin: 0 400px 0 400px;
+  background-size: inherit;
+}
 
+header h1 {
+  font-size: 24px;
+  font-weight: 900;
+}
 
+header h2 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
 
+header form {
+  color: yellow;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+header form input {
+  color: black;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+section.middle {
+  background-color: #f0efef;
+  color: #033048;
+  padding: 30px 50px;
+}
+
+section h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section ul li, section p {
+  font-weight: 100;
+  font-size: 13px;
+}
+
+section ul {
+  list-style-type: disc;
+  margin: 20px 30px;
+}
+
+#signup {
+  background-color: #f9e42e;
+}
+
+#blockquote {
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  background: url(../images/testimonial_bg.jpg) no-repeat center center rgb(134,141,157);
+}
+
+section img {
+  width: 50%;
+}
+
+p.author {
+  font-weight: 500;
+  font-size: 18px;
+}
