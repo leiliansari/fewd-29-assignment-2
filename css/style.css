@@ -49,7 +49,7 @@ body {
      color: 000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Open Sans, sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -67,8 +67,7 @@ body {
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: 100%;
-  padding: 30px;
+  background-size: cover;
 }
 
 footer {
@@ -83,36 +82,48 @@ footer {
 body {
   background-color: #f0efef;
   color: white;
-  background-size: inherit;
+}
+
+header, section.benefits, footer {
+  padding: 50px;
 }
 
 header h1 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 800;
   float: left;
-  position: initial;
 }
 
 header h2 {
   font-size: 24px;
-  font-weight: 500;
-  padding: 50px 30px 50px 10px;
+  font-weight: 600;
+  padding: 50px;
+}
+
+header div {
+  padding: 80px 50px 170px 50px;
 }
 
 header form input {
   color: black;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #f9e42e;
-  color: #121212;
+  color: #033048;
   border: none;
   border-radius: 5px;
+  padding: 5px 30px 5px 30px;
 }
 
 footer h2 {
   font-size: 24px;
   font-weight: 700;
   color: #f9e42e;
+  padding-bottom: 30px;
+}
+
+footer ul {
+  padding-bottom: 30px;
 }
 
 footer ul li {
@@ -120,14 +131,23 @@ footer ul li {
   list-style: none;
 }
 
-section h2 {
-  font-weight: 500;
-  font-size: 20px;
+footer ul p {
+  font-size: 9px;
+  font-weight: 600;
+  padding-top: 400px;
+}
+
+footer img {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
 }
 
 section ul li, section p {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 13px;
+  padding: 2px;
 }
 
 section ul {
@@ -135,49 +155,57 @@ section ul {
   margin: 20px 60px;
 }
 
-#blockquote {
+blockquote p {
+  font-size: 18px;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 300;
+  padding: 50px 200px 10px 200px;
+}
+
+#blockquote {
   text-align: center;
   background: url(../images/testimonial_bg.jpg) no-repeat center rgb(134,141,157);
-  background-size: 100%;
-  padding: 10px ;
+  background-size: cover;
 }
 
 #signup form {
   background-color: #f9e42e;
-  padding: 10px 0 10px 0;
+  padding: 15px 0 15px 0;
 }
 
 .center {
   text-align: center;
 }
 
-.benefits {
+section.benefits {
   background-color: #f0efef;
   color: #033048;
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 50px 500px 50px 500px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  padding-right: 200px;
+}
+
+.benefits h2 {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .author {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   font-style: normal;
 }
 
 input.center {
   background-color: #033048;
+  font-size: 12px;
   font-weight: 800;
   color: white;
   border: none;
   text-align: center;
   border-radius: 5px;
-  padding: 5px 30px 8px 30px;
+  padding: 8px 30px 8px 30px;
 }
 
-footer ul p {
-  font-size: 9px;
-  font-weight: 500;
-}
