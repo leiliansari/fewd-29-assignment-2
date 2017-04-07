@@ -49,7 +49,7 @@ body {
      color: 000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Open Sans, sans-serif;
 }
 
 
@@ -68,11 +68,12 @@ body {
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: 100%;
-  padding: 80px;
+  padding: 30px;
 }
 
 footer {
   background-color: #121212;
+  text-align: center;
 }
 
 /******************************************
@@ -82,43 +83,41 @@ footer {
 body {
   background-color: #f0efef;
   color: white;
-  margin: 0 400px 0 400px;
   background-size: inherit;
 }
 
 header h1 {
   font-size: 24px;
   font-weight: 900;
+  float: left;
+  position: initial;
 }
 
 header h2 {
   font-size: 24px;
   font-weight: 500;
-  text-align: center;
-}
-
-header form {
-  color: yellow;
-  border-radius: 5px;
-  font-size: 15px;
-  font-weight: 900;
+  padding: 50px 30px 50px 10px;
 }
 
 header form input {
   color: black;
   font-weight: 900;
   font-size: 12px;
+  background-color: #f9e42e;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+}
+
+footer h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9e42e;
 }
 
 footer ul li {
   display: inline-block;
   list-style: none;
-}
-
-section.middle {
-  background-color: #f0efef;
-  color: #033048;
-  padding: 30px 50px;
 }
 
 section h2 {
@@ -133,25 +132,52 @@ section ul li, section p {
 
 section ul {
   list-style-type: disc;
-  margin: 20px 30px;
-}
-
-#signup {
-  background-color: #f9e42e;
+  margin: 20px 60px;
 }
 
 #blockquote {
   font-style: italic;
   font-weight: lighter;
   text-align: center;
-  background: url(../images/testimonial_bg.jpg) no-repeat center center rgb(134,141,157);
+  background: url(../images/testimonial_bg.jpg) no-repeat center rgb(134,141,157);
+  background-size: 100%;
+  padding: 10px ;
 }
 
-section img {
-  width: 50%;
+#signup form {
+  background-color: #f9e42e;
+  padding: 10px 0 10px 0;
 }
 
-p.author {
+.center {
+  text-align: center;
+}
+
+.benefits {
+  background-color: #f0efef;
+  color: #033048;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 50px 500px 50px 500px;
+}
+
+.author {
   font-weight: 500;
   font-size: 18px;
+  font-style: normal;
+}
+
+input.center {
+  background-color: #033048;
+  font-weight: 800;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 30px 8px 30px;
+}
+
+footer ul p {
+  font-size: 9px;
+  font-weight: 500;
 }
