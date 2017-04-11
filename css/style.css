@@ -50,8 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
-}
-
+    }
 
 /******************************************
 /* LAYOUT
@@ -62,11 +61,10 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url(../images/header_bg.jpg) no-repeat center center rgb(134,141,157);
   background-size: cover;
 }
 
